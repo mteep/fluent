@@ -23,8 +23,8 @@ let package = Package(
         .library(name: "Fluent", targets: ["Fluent"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/fluent-kit.git", from: "1.38.0"),
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.50.0"),
+        .package(url: "https://github.com/mteep/fluent-kit.git", from: "1.38.0"),
+        .package(url: "https://github.com/mteep/vapor.git", from: "4.50.0"),
     ],
     targets: [
         .target(name: "Fluent", dependencies: [
